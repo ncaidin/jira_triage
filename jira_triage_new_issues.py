@@ -28,7 +28,7 @@ jira = JIRA(options, basic_auth=(username,password))
 # The alias name in Jira is called "AR Unassigned older than 30" . The thinking is that *I* should triage
 # issues less than 30 days old. maybe?
 
-my_unassigned_filter = jira.filter('13710')
+my_unassigned_filter = jira.filter('14773')
 
 print "Getting up to 1000 Jira issues which are Awaiting review and unassigned."
 # run the filter and assign to this new list
